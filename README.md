@@ -127,13 +127,12 @@ _*Theme: Using Python to work with data*_
 [Week 5 instructions](docs/5_classes_orm/5-0-instructions.md)are in the docs/5_classes_orm folder:
 
 1. [Python classes](docs/5_classes_orm/5-01-class.md)
-2. [Python data classes](docs/5_classes_orm/5-02-data-class.md)
-3. [Class relationships - inheritance, composition](docs/5_classes_orm/5-03-inheritance-composition.md)
-4. [Pydantic](docs/5_classes_orm/5-04-pydantic.md)
-5. [ORM and SQLModel](docs/5_classes_orm/5-05-orm-sqlmodel.md)
-6. [Using SQLModel to create SQLite database](docs/5_classes_orm/5-06-sqlmodel-create-db.md)
-7. [Using SQLModel to add data](docs/5_classes_orm/5-07-sqlmodel-add-data.md)
-8. [Summary](docs/5_classes_orm/5-08-summary.md)
+2. [Class relationships - inheritance, composition](docs/5_classes_orm/5-02-inheritance-composition.md)
+3. [Pydantic](docs/5_classes_orm/5-03-pydantic.md)
+4. [ORM and SQLModel](docs/5_classes_orm/5-04-orm-sqlmodel.md)
+5. [Using SQLModel to create SQLite database](docs/5_classes_orm/5-05-sqlmodel-create-db.md)
+6. [Using SQLModel to add data](docs/5_classes_orm/5-06-sqlmodel-add-data.md)
+7. [Summary](docs/5_classes_orm/5-07-summary.md)
 
 ### Week 6 Requirements; interface design
 

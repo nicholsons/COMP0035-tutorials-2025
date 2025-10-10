@@ -1,4 +1,4 @@
-# Week 5 coding activities: Working with classes and databases
+# Introduction
 
 _*Theme: Using Python to work with data*_
 
@@ -8,17 +8,24 @@ This week introduces concepts related to classes and how these may be used when 
 should work through all the activities as the concepts are related and knowledge should be progressively built through
 the activities.
 
-Each type of class discussed in activities 1, 2, 3 and 5 vary in their syntax which can seem confusing. You will
-ultimately mostly use SQLModel with an SQLite database in COMP0034 and COMP0035, so do not be concerned at trying to 
-learn other syntax.
+Each type of class discussed in activities 1, 2, and 4 varies in syntax which can seem confusing. You will
+mostly use SQLModel with an SQLite database in COMP0034 and COMP0035, so focus on that syntax.
 
-The concepts are important. Learning all variants of syntax is not!
+The main aims this week are that you understand:
+
+- what is a class, its attributes and methods
+- what does it mean when one class "inherits" from another
+- that ORM is a pattern for mapping from a Python class to a database table
+
+... and that you are able to:
+
+- Define a class using SQLModel that maps to a database table
+- Create an SQLite database from classes defined using SQLModel
 
 1. [Python classes](5-01-class.md)
-2. [Python data classes](5-02-data-class.md)
-3. [Class relationships - inheritance, composition](5-03-inheritance-composition.md)
-4. [Pydantic](5-04-pydantic.md)
-5. [ORM and SQLModel](5-05-orm-sqlmodel.md)
-6. [Using SQLModel to create SQLite database](5-06-sqlmodel-create-db.md)
-7. [Using SQLModel to add data](5-07-sqlmodel-add-data.md)
-8. [Summary](5-08-summary.md)
+2. [Class relationships - inheritance, composition](5-02-inheritance-composition.md)
+3. [Pydantic](5-03-pydantic.md)
+4. [ORM and SQLModel](5-04-orm-sqlmodel.md)
+5. [Using SQLModel to create SQLite database](5-05-sqlmodel-create-db.md)
+6. [Using SQLModel to add data](5-06-sqlmodel-add-data.md)
+7. [Summary](5-07-summary.md)

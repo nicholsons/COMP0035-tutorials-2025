@@ -1,4 +1,4 @@
-# 8. Summary
+# 7. Summary
 
 Many concepts have been introduced this week. These are key concepts that you need to understand to support the design
 work in the next 5 weeks as well as the application development work next term.

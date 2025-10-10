@@ -1,4 +1,4 @@
-# Activity 5: Set up the coursework project
+# 5. Set up the coursework project
 
 You can use the same project for coursework 1 and 2 so you only need to do this once.
 

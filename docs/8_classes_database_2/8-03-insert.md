@@ -2,7 +2,7 @@
 
 ## Recap from week 5
 
-[Activity 5.7](../5_classes_orm/5-07-sqlmodel-add-data.md) introduced how to add data to a single table.
+[Activity 5.7](../5_classes_orm/5-06-sqlmodel-add-data.md) introduced how to add data to a single table.
 
 Inserting data into the paralympics database is complex and beyond what you would need in your coursework so this
 activity returns to the student database example.

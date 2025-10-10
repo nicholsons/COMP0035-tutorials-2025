@@ -1,23 +1,6 @@
-# Coding activities 2: Working with Python pandas
+# Introduction and pre-requisites
 
 _*Theme: Using Python to work with data*_
-
-## Introduction
-
-This set of activities use Python pandas to describe, explore and prepare data from one or more raw data files (data
-set).
-
-The activities in weeks 2, 3 and 4 are not evenly balanced, with more in week 2 and less in week 4. If you can't
-complete this set of activities within the week, continue in a later week.
-
-You are asked to write code in a way that is potentially reusable in an application, including:
-
-- creating Python modules
-- using relative filepaths to access data files
-- creating Python functions (or classes) rather than a sequence of commands in a script
-
-Writing code in this way may seem unnecessary at this stage; however you need to do this for the coursework so start
-getting into the habit now.
 
 ## Pre-requisites
 
@@ -83,8 +66,12 @@ If missing, install these using `pip` e.g.  `pip install pandas openpyxl`
 <sup>1</sup> The default installation of pandas can only open Excel `.xlsx` files with an additional library called `openpyxl` <sup>1</sup>.
 
 ## Complete the activities
-This week's activities are more than you can complete in a week. There are less in week 4 so you could delay some to
-that week.
+
+This set of activities use Python pandas to describe, explore and prepare data from one or more raw data files (data
+set). The activities also introduce you to writing code in a way that is potentially re-usable in a project.
+
+The activities in weeks 2, 3 and 4 are not evenly balanced, with more in week 2 and less in week 4. If you can't
+complete this set of activities within the week, continue in a later week.
 
 1. [Create a package and module](2-01-python-structure)
 2. [Open .csv and .xlsx files and create a DataFrame](2-02-pandas-df)

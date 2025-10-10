@@ -1,4 +1,4 @@
-# Activity 2: Python virtual environments
+# 2. Python virtual environments
 
 ## What is a virtual environment
 
@@ -59,7 +59,7 @@ The venv folder can be named anything, however good practice is to name it clear
 `env` or `.env`. The `.` denotes it as a hidden folder so depending on your operating system settings you may not see
 the folder. You don't need to manually edit the venv folder so it is common to make it hidden.
 
-## Task: Create and activate a virtual environment with venv
+## How to create and activate a virtual environment with venv
 
 This is a 2-step process to create and then activate a virtual environment.
 
@@ -77,6 +77,7 @@ second command then activates that environment.
 
 e.g for MaxOS and Unix:
 
+### Task: Create and activate
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -133,7 +134,7 @@ pip list                      # List the current packages installed in the venv
 pip freeze > requirements.txt # Take all the current packages installed in the venv and save the names and versions to a text file named requirements.txt
 ```
 
-## Task: add pandas to the venv
+### Task: add pandas to the venv
 
 In the Terminal where the venv is activated try installing one or more packages, e.g. pandas, matplotlib
 
@@ -171,6 +172,8 @@ You can update the requirements.txt file with new libraries or different version
 just the package name, or you can also include information about the version to use. The requirements
 file format
 is [documented here](https://pip.pypa.io/en/stable/reference/requirements-file-format/#requirements-file-format).
+
+Note: you cannot do this yet as you don't have a requirements.txt in this project folder yet.
 
 ### pyproject.toml
 
@@ -216,7 +219,7 @@ include = ["my_package*"]  # package names should match these glob patterns (["*
 exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns (empty by default)
 ```
 
-## Task: Create a pyproject.toml and install your own code
+### Task: Create a pyproject.toml and install your own code
 
 1. Create a new file in the project root. This is a plain text file. Take care to name it exactly `pyproject.toml` (all
    lowercase).

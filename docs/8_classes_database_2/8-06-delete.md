@@ -9,7 +9,7 @@ FROM tablename
 WHERE condition
 ```
 
-Executing DELETE without specifying a condition will delete all rows from a table!
+Executing DELETE in SQL without specifying a condition will delete all rows from a table!
 
 ## Delete one or more rows
 
@@ -20,11 +20,15 @@ To use this, you first locate the row or rows to be deleted using `select()` and
 An example with the statements from the documentation:
 
 ```python
-statement = select(Hero).where(Hero.name == "Spider-Youngster")
-results = session.exec(statement)
-hero = results.first()
-session.delete(hero)
-session.commit()
+with Session(engine) as session:
+    # select the row
+    statement = select(Hero).where(Hero.name == "Spider-Youngster")
+    results = session.exec(statement)
+    # create the object
+    hero = results.first()
+    # Delete and commit
+    session.delete(hero)
+    session.commit()
 ```
 
 ## Delete from tables with relationships

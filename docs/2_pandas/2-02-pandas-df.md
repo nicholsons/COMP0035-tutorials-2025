@@ -10,7 +10,7 @@ used for the tutorial activities.
 
 In the activities you will be describing and exploring a dataset, and then preparing it for used in a scenario.
 
-## Read: Pandas DataFrame overview
+## Pandas DataFrame overview
 
 You may have seen spreadsheets that contain data in rows and columns, where the columns represent variables and
 the rows the values of those variables for a particular instance.
@@ -29,12 +29,12 @@ You can create a pandas DataFrame in a number of ways -
 see [pandas documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html). In this course you will
 typically create it by reading data that is stored in a `.csv` or `.xlsx` file.
 
-## Activity: Read .csv and .xlsx into a DataFrame
+## ACTIVITY: Read .csv and .xlsx into a DataFrame
 
 There are two data files in the `src/activities/data/` package:
 
-- [paralympics_raw.csv - a .csv file with data about paralympic games](../../src/tutorialpkg/data/paralympics_events_raw.csv)
-- [paralympics_all_raw.xlsx - an Excel file with 2 worksheets, the first with the data about paralympic games, the second with the medal tables of the competing teams](../../src/tutorialpkg/data/paralympics_all_raw.xlsx)
+- [paralympics_raw.csv](../../src/tutorialpkg/data/paralympics_events_raw.csv) - a .csv file with data about paralympic games
+- [paralympics_all_raw.xlsx](../../src/tutorialpkg/data/paralympics_all_raw.xlsx) - an Excel file with 2 worksheets, the first with the data about paralympic games, the second with the medal tables of the competing teams
 
 Use a different Pandas function for each type of file:
 
@@ -50,10 +50,10 @@ In the 'main' section:
    locate the .xlsx file `activities/data/paralympics_all_raw.xlsx`.
 2. Add code to the function to read the contents of the .csv file into a pandas DataFrame using
    `variable_name_for_df = pd.read_csv(your_filepath_variable)`.
-3. Add code to read the .xlsx file into a two further pandas DataFrames. The Excel file has two worksheets, by default
+3. Add code to read the .xlsx file into two further pandas DataFrames. The Excel file has several worksheets, by default
    `read_excel` will open the first worksheet. You can change this by
-   specifying the worksheet e.g. `pd.read_excel(paralympics_datafile_excel, sheetname=1)` reads the second worksheet (
-   counts from 0), `pd.read_excel(paralympics_datafile_excel, sheetname="name_of_sheet")` to read a sheet called '
+   specifying the worksheet e.g. `pd.read_excel(paralympics_datafile_excel, sheet_name=1)` reads the second worksheet (
+   counts from 0), `pd.read_excel(paralympics_datafile_excel, sheet_name="name_of_sheet")` to read a sheet called '
    name_of_sheet'. Add code to read in each of the two sheets.
 4. Run the code. It won't return anything if all is well. If you have errors, read the error messages to try and
    identify what is wrong and correct your code. Some common issues:

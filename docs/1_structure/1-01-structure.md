@@ -1,4 +1,4 @@
-# Activity 1: Python project structure
+# 1. Python project structure
 
 _*Theme: Working with code for applications*_
 

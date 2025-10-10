@@ -1,4 +1,4 @@
-# Activity 6 (optional): Computer setup for COMP0035 and COMP0034
+# 6. (optional) Computer setup for COMP0035 and COMP0034
 
 [Skip to next](1-07-opt-integrate-IDE-GitHub.md) if you already completed this.
 

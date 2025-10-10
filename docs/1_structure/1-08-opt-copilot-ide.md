@@ -1,4 +1,4 @@
-# Activity 8 (optional): Using Copilot Pro in VS Code or PyCharm
+# 8. (optional): Using Copilot Pro in VS Code or PyCharm
 
 Skip if you already completed this, or you do not wish to use and integrate Copilot.
 

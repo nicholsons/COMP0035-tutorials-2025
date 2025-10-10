@@ -1,4 +1,4 @@
-# Activity 4: Set up the COMP0035 coding activities project
+# 4. Set up the COMP0035 coding activities project
 
 ## Create a copy of the repository using the 'fork' method
 

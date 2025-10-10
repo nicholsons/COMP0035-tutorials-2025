@@ -1,4 +1,4 @@
-# Activity 3: Source code control with Git and GitHub
+# 3. Source code control with Git and GitHub
 
 ## Setup
 

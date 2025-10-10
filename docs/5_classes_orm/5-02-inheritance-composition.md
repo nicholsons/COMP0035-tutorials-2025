@@ -1,4 +1,4 @@
-## 3. Class inheritance and composition
+## 2. Class inheritance and composition
 
 ## Class inheritance
 
@@ -102,4 +102,4 @@ print(athlete)
 ## Activity
 1. Modify your Athlete code to add the list of medals as an attribute.
 
-[Next activity](5-04-pydantic.md)
+[Next activity](5-03-pydantic.md)

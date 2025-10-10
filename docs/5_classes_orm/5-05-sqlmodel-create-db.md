@@ -1,4 +1,4 @@
-# 6. Using SQLModel to create an SQLite database
+# 5. Using SQLModel to create an SQLite database
 
 Classes that are defined with the argument `table=True` can be created in a database with a few lines of code.
 
@@ -98,4 +98,4 @@ class Team(SQLModel, table=True):
 - Foreign key constraints were also not recognised. These are in
   the [SQLModel documentation](https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/cascade-delete-relationships/#ondelete-options)
 
-[Next activity](5-07-sqlmodel-add-data.md)
+[Next activity](5-06-sqlmodel-add-data.md)

@@ -1,4 +1,4 @@
-# Activity 1 Introduction to Python classes
+# 1. Introduction to Python classes
 
 A Python class is way of bundling data (attributes) and behaviour (methods) together. They are often described as
 being a "blueprint" for creating objects. Objects specific instances of things with data values for the attributes.
@@ -100,4 +100,4 @@ event.describe()  # Should print the event again, "Athletes competing" should in
    called `__str__(self)`. See [example here](https://www.codecademy.com/resources/docs/python/dunder-methods/str).
 4. Create an instance of the class and print it.
 
-[Next activity](5-02-data-class.md)
+[Next activity](5-02-inheritance-composition.md)

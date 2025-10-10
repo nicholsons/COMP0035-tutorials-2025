@@ -1,4 +1,4 @@
-# 5. Object relational mapping (ORM)
+# 4. Object relational mapping (ORM)
 
 So far you have learned:
 
@@ -115,4 +115,4 @@ erDiagram
 
 You will likely need to refer to SQLModel documentation.
 
-[Next activity](5-06-sqlmodel-create-db.md)
+[Next activity](5-05-sqlmodel-create-db.md)

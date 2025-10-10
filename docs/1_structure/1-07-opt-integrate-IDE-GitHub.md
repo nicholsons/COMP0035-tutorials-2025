@@ -1,4 +1,4 @@
-# Activity 7 (optional): Integrate your IDE with your GitHub account
+# 7. (optional): Integrate your IDE with your GitHub account
 
 [Skip to next](1-08-opt-copilot-ide.md) if you have already completed this or do not want to integrate it.
 

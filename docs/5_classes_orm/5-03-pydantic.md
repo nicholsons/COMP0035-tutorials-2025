@@ -1,6 +1,4 @@
-from pydantic_core import ValidationError
-
-# 4. Pydantic
+# 3. Pydantic classes
 
 [Pydantic](https://docs.pydantic.dev/latest/) is a Python library used for data validation and settings management using
 Python type annotations. It's widely used in modern Python projects, particularly with frameworks like FastAPI.
@@ -108,4 +106,4 @@ class Athlete(BaseModel):
         print(e.errors())
     ```
    
-[Next activity](5-05-orm-sqlmodel.md)
+[Next activity](5-04-orm-sqlmodel.md)

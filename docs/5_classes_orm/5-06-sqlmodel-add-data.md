@@ -1,4 +1,4 @@
-# 7. Using SQLModel to add data to an SQLite database
+# 6. Using SQLModel to add data to an SQLite database
 
 To add a single record to a database table is conceptually similar to the code used with sqlite: create the instance,
 add it, commit it.
@@ -43,4 +43,4 @@ with Session(engine) as session:
 Adding data to the paralympics database is more complex than the example above due to the number of tables and the
 relationships. This is skipped for now and covered in week 8.
 
-[Next activity](5-08-summary.md)
+[Next activity](5-07-summary.md)
