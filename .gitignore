@@ -673,11 +673,3 @@ docs/md_to_pdf/
 docs/future_weeks
 
 .DS_Store
-src/activities/solutions/
-src/activities/pandas_wk2
-src/activities/database_wk3
-src/activities/quality_wk4
-src/activities/classes_wk5
-src/activities/database2_wk8
-tests/test_playing_cards_solution.py
-tests/conftest_solutions.py

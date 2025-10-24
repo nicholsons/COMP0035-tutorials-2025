@@ -2,11 +2,9 @@
 
 Python docstrings are special strings used to document your code.
 
-A docstring is a string literal that appears as the first statement in a Python module, function, class, or method.
+A docstring appears as the first statement in a Python module, function, class, or method.
 
-Python uses these strings to generate documentation automatically.
-
-Using docstrings is considered best practice:
+Using docstrings is considered good practice:
 
 - Helps others, and yourself, understand what your code does without digging into the implementation.
 - Supports documentation tools such as Sphinx or IDEs that can extract docstrings to generate user-friendly
@@ -47,4 +45,4 @@ Conversely, gen-AI can also be used to generate docstrings from code in your IDE
 3. Go to the `describe()` function and follow the guidance to copilot (or other) complete the code from the docstring.
 
 
-[Next activity](4-02-linting.md)
+[Next activity](3-02-linting.md)

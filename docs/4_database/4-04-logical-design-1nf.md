@@ -252,4 +252,4 @@ erDiagram
     Country ||--o{ Team: ""
 ```
 
-[Next activity](3-05-logical-design-2nf.md)
+[Next activity](4-05-logical-design-2nf.md)

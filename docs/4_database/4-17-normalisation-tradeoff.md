@@ -1,4 +1,4 @@
-# 17. Normalisation and application development
+# 17. (Optional) Normalisation and application development
 
 Normalisation helps keep your data clean and consistent, but can make your queries more complex and sometimes slower.
 The right balance depends on your application's needs.

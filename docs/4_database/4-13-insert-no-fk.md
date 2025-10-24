@@ -143,4 +143,4 @@ For this activity, read the data into a pandas dataframe and use values in param
 
 2. Add the code for the teacher and student tables
 
-[Next activity](3-14-select-query.md)
+[Next activity](4-14-select-query.md)

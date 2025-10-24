@@ -105,4 +105,4 @@ The following references may be useful:
 - [SQLite SELECT reference](https://www.sqlite.org/lang_select.html)
 - [SQLite SELECT tutorial](https://www.sqlitetutorial.net/sqlite-select/)
 
-[Next activity](3-15-insert-with-fk.md)
+[Next activity](4-15-insert-with-fk.md)

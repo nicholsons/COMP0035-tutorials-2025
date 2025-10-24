@@ -113,6 +113,6 @@ erDiagram
     }
 ```
 
-You will likely need to refer to SQLModel documentation.
+You will likely need to refer to [SQLModel documentation](https://sqlmodel.tiangolo.com/tutorial/create-db-and-table/#create-the-table-model-class).
 
 [Next activity](5-05-sqlmodel-create-db.md)

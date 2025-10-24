@@ -1,6 +1,6 @@
 # 5. (Optional) Static analysis: beyond linting
 
-**This activity is optional**, you can skip to the [next activity](4-05-project-structure.md).
+**This activity is optional**, you can skip to the [next activity](3-06-project-structure.md).
 
 Linters belong to a category of tools referred to as 'static analysers', that is tools that check or analyse code but
 don't change it.
@@ -82,4 +82,4 @@ Check Information
  External Config: pylint: /PycharmProjects/COMP0035-tutorials-2025/pyproject.toml
 ```
 
-[Next activity](4-05-project-structure.md)
+[Next activity](3-06-project-structure.md)

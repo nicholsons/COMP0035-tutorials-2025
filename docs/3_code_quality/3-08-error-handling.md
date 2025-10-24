@@ -1,4 +1,8 @@
-# 7. Error handling
+# 8. Error handling
+
+NB This activity mentions database connections. Database connections are covered in week 4. This should not prevent you
+completing this activity as any database specific code is given to you within this activity and the associated starter
+code files.
 
 ## Introduction
 
@@ -71,9 +75,9 @@ should not raise a bare exception. A bare exception is when you don't specify th
 
 ```python
 try:
-# some code
+    # some code
 except:
-# handle any exception
+    # handle any exception
 ```
 
 A bare except will catch all exceptions, including system-exiting exceptions like KeyboardInterrupt and SystemExit. This

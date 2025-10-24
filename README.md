@@ -16,7 +16,7 @@ The `docs` folder contains the activity instructions for each week.
 The `src` package contains any starter code for each week. You can also use this package to store your own code
 that you create during the activities.
 
-One solution to the week's activities will be added to the [tutor_solution repository](). Other solutions will be
+One solution to the week's activities will be added to the [tutor_solution repository](https://github.com/nicholsons/comp0035-tutorials-solutions). Other solutions will be
 possible, and some may be better than the solution offered, so don't feel
 your code has to match the tutors code!
 
@@ -72,47 +72,50 @@ some.
 17. [Check the prepared data suits the purpose](docs/2_pandas/2-17-questions.md)
 18. [Next steps](docs/2_pandas/2-18-next-steps.md)
 
-### Week 3 Database design; sqlite3
+
+### Week 3 Code quality: linting, docstrings, exception handling, project structure and imports
+
+_*Theme: Working with code for applications*_
+
+[Week 3 instructions](docs/3_code_quality/3-0-instructions.md) are in the docs/3_code_quality folder:
+
+1. [Docstring](docs/3_code_quality/3-01-docstrings.md)
+2. [Linting](docs/3_code_quality/3-02-linting.md)
+3. [Auto-formatting](docs/3_code_quality/3-03-formatter.md)
+4. [GitHub Actions lint report](docs/3_code_quality/3-04-github-actions.md)
+5. [(Optional) Static analysis: beyond linting](docs/3_code_quality/3-05-static-analysis.md)
+6. [Project structure](docs/3_code_quality/3-06-project-structure.md)
+7. [Imports](docs/3_code_quality/3-07-imports.md)
+8. [Error handling](docs/3_code_quality/3-08-error-handling.md)
+
+### Week 4 Database design; sqlite3
 
 _*Themes: Designing applications*_ & _*Using Python to work with data*_
 
 This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay
 some.
 
-[Activity instructions](docs/3_database/3-0-instructions.md) are in the docs/3_database folder:
+[Activity instructions](docs/4_database/4-0-instructions.md) are in the docs/4_database folder:
 
-1. [Introduction to database design (lecture recap)](docs/3_database/3-01-database-design.md)
-2. [Introduction to ERD (lecture recap) and ERD drawing tools](docs/3_database/3-02-erd-intro.md)
-3. [Conceptual database design](docs/3_database/3-03-conceptual-design.md)
-4. [Logical design to 1NF](docs/3_database/3-04-logical-design-1nf.md)
-5. [Logical design to 2NF](docs/3_database/3-05-logical-design-2nf.md)
-6. [Logical design to 3NF](docs/3_database/3-06-logical-design-3nf.md)
-7. [Logical design - constraints](docs/3_database/3-07-logical-design-constraints-data.md)
-8. [Logical design - referential integrity](docs/3_database/3-08-logical-design-constraints-fk.md)
-9. [Logical design activity](docs/3_database/3-09-logical-design-activity.md)
-10. [Physical design - SQLite schema](docs/3_database/3-10-physical-design-structure.md)
-11. [Physical design - Python to create SQLite database structure](docs/3_database/3-11-physical-design-create-db.md)
-12. [Database design - next steps](docs/3_database/3-16-next-steps.md)
-13. [SQL INSERT and SELECT intro](docs/3_database/3-12-sql-add-data.md)
-14. [Add data to tables with no FK](docs/3_database/3-13-insert-no-fk.md)
-15. [Select data](docs/3_database/3-14-select-query.md)
-16. [Add data to tables with an FK](docs/3_database/3-15-insert-with-fk.md)
-17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off
+1. [Introduction to database design (lecture recap)](docs/4_database/4-01-database-design.md)
+2. [Introduction to ERD (lecture recap) and ERD drawing tools](docs/4_database/4-02-erd-intro.md)
+3. [Conceptual database design](docs/4_database/4-03-conceptual-design.md)
+4. [Logical design to 1NF](docs/4_database/4-04-logical-design-1nf.md)
+5. [Logical design to 2NF](docs/4_database/4-05-logical-design-2nf.md)
+6. [Logical design to 3NF](docs/4_database/4-06-logical-design-3nf.md)
+7. [Logical design - constraints](docs/4_database/4-07-logical-design-constraints-data.md)
+8. [Logical design - referential integrity](docs/4_database/4-08-logical-design-constraints-fk.md)
+9. [Logical design activity](docs/4_database/4-09-logical-design-activity.md)
+10. [Physical design - SQLite schema](docs/4_database/4-10-physical-design-structure.md)
+11. [Physical design - Python to create SQLite database structure](docs/4_database/4-11-physical-design-create-db.md)
+12. [Database design - next steps](docs/4_database/4-16-next-steps.md)
+13. [SQL INSERT and SELECT intro](docs/4_database/4-12-sql-add-data.md)
+14. [Add data to tables with no FK](docs/4_database/4-13-insert-no-fk.md)
+15. [Select data](docs/4_database/4-14-select-query.md)
+16. [Add data to tables with an FK](docs/4_database/4-15-insert-with-fk.md)
+17. [Normalisation and application code](docs/4_database/4-17-normalisation-tradeoff.md)- A brief intro to the trade-off
     between database normalisation and query design
 
-### Week 4 Code quality: linting, docstrings, exception handling, project structure and imports
-
-_*Theme: Working with code for applications*_
-
-[Week 4 instructions](docs/4_code_quality/4-0-instructions.md) are in the docs/4_code_quality folder:
-
-1. [Docstring](docs/4_code_quality/4-01-docstrings.md)
-2. [Linting and auto-formatting](docs/4_code_quality/4-02-linting.md)
-3. [GitHub Actions lint report](docs/4_code_quality/4-03-github-actions.md)
-4. [(Optional) Static analysis: beyond linting](docs/4_code_quality/4-04-static-analysis.md)
-5. [Project structure](docs/4_code_quality/4-05-project-structure.md)
-6. [Imports](docs/4_code_quality/4-06-imports.md)
-7. [Error handling](docs/4_code_quality/4-07-error-handling.md)
 
 <hr>
 
@@ -133,6 +136,7 @@ _*Theme: Using Python to work with data*_
 5. [Using SQLModel to create SQLite database](docs/5_classes_orm/5-05-sqlmodel-create-db.md)
 6. [Using SQLModel to add data](docs/5_classes_orm/5-06-sqlmodel-add-data.md)
 7. [Summary](docs/5_classes_orm/5-07-summary.md)
+8. Optional [Using SQLAlchemy in place of SQLModel](docs/5_classes_orm/5-08-sqlalchemy.md)
 
 ### Week 6 Requirements; interface design
 

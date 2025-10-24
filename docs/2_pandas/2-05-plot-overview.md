@@ -46,11 +46,11 @@ df = pd.DataFrame({
 # matplotlib examples typically split this into separate commands defining fig and ax then adding customisation
 ax = df.plot(title='Sample Plot', xlabel='X-axis Label', ylabel='Y-axis Label')
 
-# Show the plot
-plt.show()
-
 # Save plot (may prefer this to showing the plot)
 plt.savefig('sample_plot.png')
+
+# Show the plot
+plt.show()
 ```
 
 You can run this example in `starter/example_plot.py` in your own IDE.

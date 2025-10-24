@@ -112,4 +112,4 @@ GamesHost
     - id → games_id, host_id
     - {games_id, host_id} → id
 
-[Next activity](3-06-logical-design-3nf.md)
+[Next activity](4-06-logical-design-3nf.md)

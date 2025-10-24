@@ -102,4 +102,4 @@ erDiagram
     Country ||--o{ Team: ""
 ```
 
-[Next activity](3-08-logical-design-constraints-fk.md)
+[Next activity](4-08-logical-design-constraints-fk.md)

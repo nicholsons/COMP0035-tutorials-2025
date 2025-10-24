@@ -136,4 +136,4 @@ erDiagram
     Country ||--o{ Team: ""
 ```
 
-[Next activity](3-09-logical-design-activity.md)
+[Next activity](4-09-logical-design-activity.md)

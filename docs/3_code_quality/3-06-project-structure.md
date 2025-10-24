@@ -1,4 +1,4 @@
-# Project structure
+# 6. Project structure
 
 ## Recap from week 2
 
@@ -44,26 +44,26 @@ tests until coursework 2.:
 
 ```text
 my_python_project/
-├── README.md            # Information about your project for you and other developers who use your code
-├── requirements.txt     # Lists packages your code requires. Used when creating a virtual environment.
-├── pyproject.toml       # Configuration values for your project and tools that might be used (e.g. test, lint, formatter)
-├── .gitignore           # Lists files that git should ignore and not add to github e.g., venv, IDE config, temporary files
-├── my_python_project/   # The main package for your project, usually the app or project name
-│   ├── __init__.py
-│   ├── app.py           # The entry point to run the app code
-│   ├── module1.py
-│   └── module2.py
-├── data/               # Data files and database.
-│   ├── __init__.py
-│   ├── processed_data.csv
-│   ├── my_database.db
-│   └── raw_data.csv
-├── tests/               # Contains test code, "tests" is a name recognised by most test runners.
-│   ├── __init__.py
-│   ├── test_app.py      # Test modules usually start with 'test_' or end '_test'
-│   ├── test_module1.py
-│   └── test_module2.py
-├── .venv/               # Code for the virtual environment, '.' hides the folder depending on your operating system settings
+    ├── README.md            # Information about your project for you and other developers who use your code
+    ├── requirements.txt     # Lists packages your code requires. Used when creating a virtual environment.
+    ├── pyproject.toml       # Configuration values for your project and tools that might be used (e.g. test, lint, formatter)
+    ├── .gitignore           # Lists files that git should ignore and not add to github e.g., venv, IDE config, temporary files
+    ├── .venv/               # Code for the virtual environment, '.' hides the folder depending on your operating system settings
+    ├── my_python_project/   # The main package for your project, usually the app or project name
+    │   ├── __init__.py
+    │   ├── app.py           # The entry point to run the app code
+    │   ├── module1.py
+    │   └── module2.py
+    ├── data/               # Data files and database.
+    │   ├── __init__.py
+    │   ├── processed_data.csv
+    │   ├── my_database.db
+    │   └── raw_data.csv
+    ├── tests/               # Contains test code, "tests" is a name recognised by most test runners.
+    │   ├── __init__.py
+    │   ├── test_app.py      # Test modules usually start with 'test_' or end '_test'
+    │   ├── test_module1.py
+    │   └── test_module2.py
 ```
 
 ## Project and tool config files
@@ -89,4 +89,4 @@ There are examples of Python project structures on these sites:
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/structure/#sample-repository)
 - [Real Python](https://realpython.com/python-application-layouts/)
 
-[Next activity](4-06-imports.md)
+[Next activity](3-07-imports.md)

@@ -29,3 +29,4 @@ The main aims this week are that you understand:
 5. [Using SQLModel to create SQLite database](5-05-sqlmodel-create-db.md)
 6. [Using SQLModel to add data](5-06-sqlmodel-add-data.md)
 7. [Summary](5-07-summary.md)
+8. Optional [Using SQLAlchemy instead of SQLModel](5-08-sqlalchemy.md)

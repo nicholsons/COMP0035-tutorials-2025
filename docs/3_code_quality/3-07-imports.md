@@ -1,4 +1,4 @@
-# 6. Importing Python packages/libraries
+# 7. Importing Python packages/libraries
 
 You are already aware that to use Python packages in your code you import them. This activity covers guidance on how to
 structure the imports, including how to import your own application packages and modules.
@@ -140,4 +140,4 @@ submissions.
 - If not using `src/my_package` style layout, read
   the [guidance for setuptools package discovery](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html).
 
-[Next activity](4-07-error-handling.md)
+[Next activity](3-08-error-handling.md)

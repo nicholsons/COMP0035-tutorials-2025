@@ -113,4 +113,4 @@ erDiagram
 
 This is now the conceptual design, it shows the entities, their attributes and any relationships between those entities.
 
-[Next activity](3-04-logical-design-1nf.md)
+[Next activity](4-04-logical-design-1nf.md)

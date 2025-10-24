@@ -77,4 +77,4 @@ Design your database so that:
 - Where there is a many-to-many relationship you will need to add a new table between the two tables so forming two
   one-to-many relationships.
 
-[Next activity](3-02-erd-intro.md)
+[Next activity](4-02-erd-intro.md)

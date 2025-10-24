@@ -17,6 +17,7 @@ SQLModel.metadata.create_all(engine)
 The following example is from the SQLModel documentation:
 
 ```python
+from __future__ import annotations
 from sqlmodel import Field, SQLModel, create_engine
 
 
@@ -34,24 +35,27 @@ SQLModel.metadata.create_all(engine)
 
 ## Code files and structure
 
-Typically, you will see model classes saved in a file called models.py.
+Typically, you will see model classes saved in a file called `models.py`.
 
-The code to create the database using these models is likely in another file.
+The code to create the database using these models is likely in another file, e.g. `database.py`.
 
-And the code to run the app would call the function to create the database.
+The code to run the app would call the function to create the database using the models. This is likely to be in an
+`app.py` or `main.py` module.
 
-This is shown in
+The structure of this code is shown in
 the [SQLModel tutorial here](https://sqlmodel.tiangolo.com/tutorial/code-structure/#single-module-for-models).
 
-## Activity: Create the database
+### Activity: Create the database
 
-Write code in `models.py`, `database.py` and `app.py` to create the database.
+Following the structure above, write the code to create the paralympics database.
+
+Write code in `models.py`, `database.py` and `app.py` files (modules).
 
 You can copy the model code
-from [starter_create_db_sqlmodel.py](../../src/activities/starter/starter_create_db_sqlmodel.py).
+from [starter_models.py](../../src/activities/starter/starter_models.py) to your `models.py`.
 
-Use your code to create the database. Use a new database name `paralympics_sqlmodel.db` as you probably already have one
-called `paralympics.db`.
+Write code in `database.py` and `app.py` to create the database. Use a new database name `paralympics_sqlmodel.db` as 
+you probably already have one called `paralympics.db` from an earlier activity.
 
 ## Reflection on using copilot to generate the SQLModels from a sql schema
 
@@ -65,7 +69,7 @@ The generated code was then checked against current SQLModel syntax:
 
 Limitations of the initial copilot-generated solution:
 
-- The attributes for date were treated as string. I decided to leave this since SQLite stores date as string
+- The attributes for date were treated as string. I decided to leave this since SQLite can store a date as a string.
 - Check constraints were not recognised. These are not directly supported in SQLModel in the current version.
   You need use SQLAlchemy syntax. This is not in the SQLModel documentation and the SQLAlchemy documentation is complex
   to follow. This article has a clear and shorter summary:

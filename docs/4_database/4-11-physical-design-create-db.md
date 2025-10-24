@@ -60,4 +60,4 @@ Use the [student_schema.sql](../../src/activities/starter/student_schema.sql) an
 from script to create the student records database. Hopefully you wrote your function in a way that it can create any
 database from any script.
 
-[Next activity](3-12-sql-add-data.md)
+[Next activity](4-12-sql-add-data.md)

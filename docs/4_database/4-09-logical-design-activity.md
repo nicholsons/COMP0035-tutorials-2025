@@ -65,4 +65,4 @@ Given the following markdown format table of data, design a database structure t
 | Mark Taylor  | mark.taylor@school.com | Bob Green     | bob.green@school.com     | Chemistry   | CHEM301     | Mon-Wed 2pm     | Room 303        |
 ```
 
-[Next activity](3-10-physical-design-structure.md)
+[Next activity](4-10-physical-design-structure.md)

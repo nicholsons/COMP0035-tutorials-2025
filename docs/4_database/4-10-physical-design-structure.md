@@ -103,4 +103,4 @@ sql statements to enable this.
     - Keep table names to all lowercase, no spaces or underscores (not important now but will make it easier in later
       activities!)
 
-[Next activity](3-11-physical-design-create-db.md)
+[Next activity](4-11-physical-design-create-db.md)

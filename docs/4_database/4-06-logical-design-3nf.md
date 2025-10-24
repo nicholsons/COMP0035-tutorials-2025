@@ -62,4 +62,4 @@ The design meets 3NF. All non-key attributes depend only on the primary key, and
 You could add further tables to the design if you wished; for example create tables for the region, sub_region and 
 member_type values that are used in the Team table.
 
-[Next activity](3-07-logical-design-constraints-data.md)
+[Next activity](4-07-logical-design-constraints-data.md)

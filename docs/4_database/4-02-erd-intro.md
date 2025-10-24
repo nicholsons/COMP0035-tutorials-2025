@@ -160,4 +160,4 @@ Here is the Entity Relationship (ER) Diagram, normalized to Third Normal Form (3
 - Each entity contains only the relevant attributes, eliminating redundancies. The relationships between students,
   teachers, and courses are managed through the Enrollment entity.
 
-[Next activity](3-03-conceptual-design.md)
+[Next activity](4-03-conceptual-design.md)
