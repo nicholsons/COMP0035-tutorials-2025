@@ -1,5 +1,4 @@
-name: Pylint # Optional change. Name of the workflow that will
-appear in your workflow list.
+name: Pylint # Optional change. Name of the workflow that will appear in your workflow list.
 on: [push] # Do not change. Tells GitHub to run this workflow
 when changes are pushed to repository.
 jobs:
