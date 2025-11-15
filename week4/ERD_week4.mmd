@@ -1,0 +1,32 @@
+erDiagram
+    
+    STUDENTS {
+        INT student_id PK
+        STRING student_name
+        STRING student_email
+    }
+
+    COURSES {
+        INT course_id PK
+        STRING course_name
+        STRING course_code
+        STRING course_schedule
+        STRING course_location
+    }
+
+    TEACHERS {
+        INT teacher_id PK
+        STRING teacher_name
+        STRING teacher_email
+    }
+
+    ENROLMENTS {
+        INT enrolment_id PK
+        INT student_id FK
+        INT course_id FK
+        INT teacher_id FK
+    }
+
+    STUDENTS ||--o{ ENROLMENTS : enrolls
+    COURSES ||--o{ ENROLMENTS : has
+    TEACHERS ||--o{ ENROLMENTS : teaches

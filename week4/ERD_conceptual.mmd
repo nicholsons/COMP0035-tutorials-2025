@@ -1,0 +1,36 @@
+erDiagram
+    
+    GAMES {
+        INT year PK
+        STRING type
+        STRING country
+        LIST_STRING host
+        DATE start
+        DATE end
+        LIST_STRING disabilities_included
+        INT countries
+        INT events
+        INT sports
+        INT participants_m
+        INT participants_f
+        INT participants
+        STRING highlights
+        STRING url
+    }
+
+    TEAMS {
+        STRING code PK
+        STRING name
+        STRING region
+        STRING sub_region
+        STRING member_type
+        STRING notes
+    }
+
+    PARTICIPATION {
+        STRING team_code FK
+        INT year FK
+    }
+
+    GAMES ||--o{ PARTICIPATION : includes
+    TEAMS ||--o{ PARTICIPATION : sends
