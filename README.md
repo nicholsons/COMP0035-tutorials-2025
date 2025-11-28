@@ -20,6 +20,10 @@ One solution to the week's activities will be added to the [tutor_solution repos
 possible, and some may be better than the solution offered, so don't feel
 your code has to match the tutors code!
 
+git add .
+git commit -m"Week 1 tutorial done!"
+git push
+
 ## List of activity instructions
 
 This will be updated each week with the activities for that week.

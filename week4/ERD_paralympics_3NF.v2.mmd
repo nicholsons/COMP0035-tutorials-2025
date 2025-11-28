@@ -1,0 +1,74 @@
+erDiagram
+    Games {
+        INT id PK
+        STRING type
+        INT year
+        STRING start
+        STRING end
+        INT countries
+        INT events
+        INT sports
+        INT participants_m
+        INT participants_f
+        INT participants
+        STRING highlights
+        STRING URL
+    }
+
+    Team {
+        STRING code PK
+        STRING name
+        STRING region
+        STRING sub_region
+        STRING member_type
+        STRING notes
+        INT country_id FK
+    }
+
+    Disability {
+        INT disability_id PK
+        STRING description
+    }
+
+    Country {
+        INT country_id PK
+        STRING country
+        STRING team_code
+    }
+
+    Host {
+        INT host_id PK
+        STRING place_name
+        INT country_id FK
+    }
+
+    GamesTeam {
+        INT id PK
+        INT games_id FK
+        STRING team_id FK
+    }
+
+    GamesDisability {
+        INT id PK
+        INT games_id FK
+        INT disability_id FK
+    }
+
+    GamesHost {
+        INT id PK
+        INT games_id FK
+        INT host_id FK
+    }
+
+    %% Relationships
+    Games ||--o{ GamesTeam : includes
+    Team  ||--o{ GamesTeam : competes_in
+
+    Games ||--o{ GamesDisability : has
+    Disability ||--o{ GamesDisability : represented_by
+
+    Games ||--o{ GamesHost : hosted_in
+    Host  ||--o{ GamesHost : occurs_in
+
+    Country ||--o{ Host : includes
+    Country ||--o{ Team : owns

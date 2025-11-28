@@ -1,42 +1,35 @@
-"""
-Use autopep8 to reformat this code.
-
-In the Terminal run `autopep8 --in-place --aggressive --aggressive src/activities/starter/cq_code_to_reformat.py`
-
-Copied from autopep8 documentation: https://pypi.org/project/autopep8/
+"""Poorly formatted code.
+This is a module that contains a function that will be linted in activity 3.6
 """
 
-import math, sys
+globalTEST = "This is a global variable"
 
 
-def example1():
-    ####This is a long comment. This should be wrapped to fit within 72 characters.
-    some_tuple = (1, 2, 3, "a")
-    some_variable = {
-        "long": "Long code lines should be wrapped within 79 characters.",
-        "other": [math.pi, 100, 200, 300, 9876543210, "This is a long string that goes on"],
-        "more": {
-            "inner": "This whole logical line should be wrapped.",
-            some_tuple: [1, 20, 300, 40000, 500000000, 60000000000000000],
-        },
-    }
-    return (some_tuple, some_variable)
+def inCorrect_functionName():
+    print("This is a function with a poorly formatted name")
 
 
-def example2():
-    return {"has_key() is deprecated": True}.has_key({"f": 2}.has_key(""))
+def missing_docstring(message):
+    print(message)
+    print("This is a function that is missing it's docstring")
+    result = "message printed"
+    return result
 
 
-class Example3(object):
-    def __init__(self, bar):
-        # Comments should have a space after the hash.
-        if bar:
-            bar += 1
-            bar = bar * bar
-            return bar
-        else:
-            some_string = """
-                       Indentation in multiline strings should not be touched.
-Only actual code should be reindented.
-"""
-            return (sys.path, some_string)
+def incorrect_spacing_between_functions():
+    print("This function has incorrect spacing between it and the function above")
+
+
+# def incorrect_spacing_between_functions():
+#   print("This is a duplicated function name")
+
+
+# New name
+def incorrect_spacing_between_functions_v2():
+    print("This is the second version")
+
+
+def incorrect_whitespace(x, y):
+    result = x + y
+    print(result)
+    return result

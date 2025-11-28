@@ -1,0 +1,70 @@
+erDiagram
+  Country {
+    INT id PK
+    STRING country
+  }
+
+  Team {
+    STRING code PK
+    STRING name
+    STRING region
+    STRING sub_region
+    STRING member_type
+    STRING notes
+    INT country_id FK
+  }
+
+  Games {
+    INT id PK "NOT NULL, UNIQUE"
+    STRING type "CHECK (type IN ('winter', 'summer'))"
+    INT year "CHECK (year BETWEEN 1960 AND 9999)"
+    INT host_id FK
+    DATE start
+    DATE end "CHECK (end >= start)"
+    INT countries
+    INT events
+    INT sports
+    INT participants_m
+    INT participants_f
+    INT participants
+    STRING highlights
+    STRING URL
+  }
+
+  Host {
+    INT id PK
+    STRING place_name
+    INT country_id FK
+  }
+
+  GamesHost {
+    INT id PK
+    INT games_id FK
+    INT host_id FK
+  }
+
+  GamesTeam {
+    INT id PK
+    INT games_id FK
+    STRING team_code FK
+  }
+
+  Disability {
+    INT id PK
+    STRING description
+  }
+
+  GamesDisability {
+    INT id PK
+    INT games_id FK
+    INT disability_id FK
+  }
+
+  Country ||--o{ Team : owns
+  Country ||--o{ Host : contains
+  Host ||--o{ GamesHost : hosts
+  Games ||--o{ GamesHost : includes
+  Games ||--o{ GamesTeam : includes
+  Team ||--o{ GamesTeam : represents
+  Games ||--o{ GamesDisability : features
+  Disability ||--o{ GamesDisability : describes

@@ -1,0 +1,7 @@
+# Make a trivial change to one file
+echo "# Dummy line to force push" >> week4/ERD_week4.mmd
+
+# Then run the usual git commands
+git add week4/ERD_week4.mmd
+git commit -m "Trigger re-upload of week4 directory to GitHub"
+git push

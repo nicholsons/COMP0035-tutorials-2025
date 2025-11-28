@@ -1,0 +1,50 @@
+erDiagram
+    Country {
+        INT id PK
+        STRING country
+    }
+
+    Host {
+        INT id PK
+        INT country_id FK
+    }
+
+    Games {
+        INT id PK "NOT NULL, UNIQUE"
+    }
+
+    Team {
+        STRING code PK
+        INT country_id FK
+    }
+
+    Disability {
+        INT id PK
+    }
+
+    GamesHost {
+        INT id PK
+        INT games_id FK "ON UPDATE CASCADE ON DELETE CASCADE"
+        INT host_id FK "ON UPDATE CASCADE ON DELETE CASCADE"
+    }
+
+    GamesTeam {
+        INT id PK
+        INT games_id FK "ON UPDATE CASCADE ON DELETE CASCADE"
+        STRING team_code FK "ON UPDATE CASCADE ON DELETE CASCADE"
+    }
+
+    GamesDisability {
+        INT id PK
+        INT games_id FK "ON UPDATE CASCADE ON DELETE CASCADE"
+        INT disability_id FK "ON UPDATE CASCADE ON DELETE CASCADE"
+    }
+
+    Country ||--o{ Host : ""
+    Country ||--o{ Team : ""
+    Host ||--o{ GamesHost : ""
+    Games ||--o{ GamesHost : ""
+    Games ||--o{ GamesTeam : ""
+    Team ||--o{ GamesTeam : ""
+    Games ||--o{ GamesDisability : ""
+    Disability ||--o{ GamesDisability : ""
